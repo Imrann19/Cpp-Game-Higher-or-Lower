@@ -10,7 +10,7 @@ int main(){
         cout << "Entrer un nombre entre 1 et 100: "; cin >> input_utilisateur;
         if (input_utilisateur == nb){
             cout << "Vous avez gagner le nombre est " << nb << endl;
-            awnser = false;
+            answer = false;
         }
         else if (input_utilisateur > nb){
             cout << "Le nombre est plus petit" << endl;
@@ -22,3 +22,4 @@ int main(){
     return 0;
 
 }
+
